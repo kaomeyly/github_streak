@@ -49,7 +49,7 @@ jobs:
           echo "No activity detected. Saving streak..."
           date >> streak.txt
           git config user.name "github-actions"
-          git config user.email "soksereyvathna.uk@gmail.com"
+          git config user.email "kaomeyly@gmail.com"
           git add streak.txt
           git commit -m "Auto streak save" || echo "No changes"
           git push
